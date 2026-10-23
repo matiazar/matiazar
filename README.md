@@ -11,7 +11,6 @@
 | Repo | What it shows |
 |------|---------------|
 | [**booking-api**](https://github.com/matiazar/booking-api) | Laravel REST API with the architecture I use in production: Form Requests, Services, DTOs, domain exceptions, after-commit events, admin error reporting, and Pest tests that enforce the architecture rules. |
-| [**mazar**](https://github.com/matiazar/mazar) | My Claude Code plugin: the spec-first, AI-assisted development workflow I use day to day (brief -> client questions -> spec with estimate -> staged build -> risk-based review). |
 
 ### Recent work (private code)
 
@@ -29,6 +28,17 @@ Client and product code lives in private repositories. Happy to walk through any
 - **Thin controllers.** Validation in Form Requests, business logic in Services, reusable from controllers, jobs and commands.
 - **Fail loudly.** Domain exceptions for business rules, transactions for multi-step writes, and unexpected errors reported to the admin.
 - **AI as a team, with review.** I run multi-agent workflows with Claude Code (specs, design systems, implementation, review), with the same code-review standards I applied leading a human team.
+
+### My AI development workflow
+
+I built my own Claude Code plugin (private) that encodes how I take a project from brief to delivery:
+
+1. **Spec** - evaluates the client brief, lists what's clear, ambiguous and risky, writes plain-language questions for the client, then the technical spec with an effort estimate. No code yet.
+2. **Init** - for new projects: closes the gaps in the spec, decides the stack, scaffolds, and builds one module per stage with a traceable progress log.
+3. **Dev** - for existing codebases: surgical changes to the requested module only, respecting the project's own architecture, with tests per module.
+4. **Review** - picks the review depth by risk: none for trivial edits, code review for normal changes, code + security review for auth, payments and user input.
+
+The shared rules are the ones I'd ask of any team: no push or history rewrite without approval, every design decision must surface at least one blind spot, debug from evidence not guesses, the simplest solution that works, thin controllers, and errors that fail loudly and reach the admin.
 
 ### Stack
 
