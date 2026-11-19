@@ -11,12 +11,14 @@
 | Repo | What it shows |
 |------|---------------|
 | [**booking-api**](https://github.com/matiazar/booking-api) | Laravel REST API with the architecture I use in production: Form Requests, Services, DTOs, domain exceptions, after-commit events, admin error reporting, and Pest tests that enforce the architecture rules. |
+| [**meta-post-scheduler**](https://github.com/matiazar/meta-post-scheduler) | Self-hosted panel to schedule image posts to Facebook, Instagram and Threads through Meta's official APIs. NestJS + Next.js monorepo, a BullMQ worker that publishes on schedule with retries and email alerts, Cloudflare R2 for media, optional Claude copy suggestions, and a one-command Docker setup. |
 
 ### Recent work (private code)
 
 Client and product code lives in private repositories. Happy to walk through any of it in a call.
 
-- **Turnos SaaS** and **Talleres SaaS** - my own multi-client SaaS products.
+- **Kalendox** - my own multi-client SaaS for appointment booking, live in production.
+- **Envíos Box** - my SaaS for logistics companies, the multi-client version of the Logística La Veloz system.
 - **MercadoScanner** - warehouse app that scans MercadoLibre and Tienda Nube shipping labels to verify orders before dispatch. Laravel + Flutter.
 - **Logística La Veloz** - driver app for pickups and deliveries with live tracking and automatic commission calculation. Flutter + Firebase.
 - **Malka** - booking portal for an aesthetics center: services, professionals, available slots, online payment and reminders. Laravel + MySQL.
