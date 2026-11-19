@@ -44,7 +44,7 @@ The shared rules are the ones I'd ask of any team: no push or history rewrite wi
 
 ### Stack
 
-**Backend:** PHP, Laravel, Yii, Node.js / NestJS (learning) · **Frontend:** JavaScript, Next.js (learning), Astro · **Mobile:** Flutter · **Data:** MySQL, SQLite, Firebase · **Infra:** RabbitMQ, queues, Git, GitHub Actions · **AI tooling:** Claude Code, GitHub Copilot, Antigravity
+**Backend:** PHP, Laravel, Yii, Node.js / NestJS (learning), TypeScript (learning) · **Frontend:** JavaScript, Next.js (learning), Tailwind, Astro · **Mobile:** Flutter · **Data:** MySQL, PostgreSQL, SQLite, Redis, Firebase, Prisma · **Infra:** RabbitMQ, BullMQ, queues, Docker, Cloudflare R2, Git, GitHub Actions · **Integrations:** Mercado Libre, Mercado Pago, Tienda Nube, PayPal, Stripe, WhatsApp API, Claude API, Meta Graph API (Facebook, Instagram), Threads API, Google Calendar, Google Meet, Google OAuth, Firebase Cloud Messaging, ARCA (electronic invoicing), Correo Argentino, Andreani, OCA · **AI tooling:** Claude Code, GitHub Copilot, Antigravity
 
 ### Contact
 
